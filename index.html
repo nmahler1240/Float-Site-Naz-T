@@ -12,37 +12,41 @@
   </head>
 
 <div class="topIcon">
-  <a href="https://www.facebook.com/NazTFloat/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" width="50px" height="50px"></a>
-  <a href="https://www.instagram.com/naz_t_rob/"><img src="insta.png" width="50px" height="50px"></a>
+  <a href="https://www.facebook.com/NazTFloat/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" width="50px" height="50px"></a>
+  <a href="https://www.instagram.com/naz_t_rob/" target="_blank"><img src="insta.png" width="50px" height="50px"></a>
 </div>
 
-
-<!--sidebar-->
-  <div class="sidenav" id="mySidenav">
-      <a id="updates" href="#updates">Updates</a>
-      <a id="about" href="#about">About us</a>
-      <a id="gallery" href="#gallery">Gallery</a>
-      <a id="contact" href="#contact">Contact</a>
-      <a id="quote" href="#quote">Get Quote</a>
-  </div>
-
-<main>
-
-
 <header>
-  <script src="index.js"></script>
-  <div class="dark">
-    <button class="btn" onclick="myFunction()">Dark mode</button>
-  </div>
-    <h1 class="main">Naz-T's Float Shop</h1>
-</header>
-<body>
-      <p class="sub">Repair Service Open today until 10:00 PM</p>
-        <img class="logo" src="logo.jpeg">
 
-<div class="description">
-  <p class="des">NaZ-T's Float Shop is a local shop specializing in repair or customizations to your PEV vehicles. Aimed at the One Wheel specifically, we have several partners that come together to collectively cover any needs you may have.</p>
-<div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  </div>
+
+    <h1 class="main" id="home">Naz-T's Float Shop</h1>
+    <p class="number">(479) 295-5872</p>
+</header>
+<main>
+<body>
 
   <div class="video">
     <video preload="auto" muted="" autoplay="" loop="" playsinline="" id="hero-vid" class="hero__video">
@@ -52,28 +56,36 @@
       </video>
   </div>
 
-<h2 class="gal">Gallery</h2>
+      <p class="sub" id="about">Repair Service Open today until 10:00 PM</p>
+        <img class="logo" src="logo.jpeg">
+
+<div class="description">
+  <p class="des">NaZ-T's Float Shop is a local shop specializing in repair or customizations to your PEV vehicles. Aimed at the One Wheel specifically, we have several partners that come together to collectively cover any needs you may have.</p>
+<div>
+
+
+<h2 class="gal" id="gallery">Gallery</h2>
 
 <!--GALLERY-->
 <div class="container">
     <div class="gallery1">
         <figure class="img1">
-            <img src="img7.jpeg" alt="Gallery image 1" class="gallery__img">
+            <a href="https://www.google.com/maps/uv?pb=!1s0x87c90598b53870d7%3A0x218cd57e87f70e4b!3m1!7e131!5sNaz-T%27s%20Float%20Shop!15sCgIgAQ&hl=en&imagekey=!1e3!2s-REfYruaeqnY%2FYJspvXwsetI%2FAAAAAAAAAFM%2FMuoBpp-CFsMmnY-XAdIdCppmSqZqcVBdQCNwBGAYYCw" target="_blank"><img src="img7.jpeg" alt="Gallery image 1" class="gallery__img"></a>
         </figure>
         <figure class="img2">
-            <img src="img2.jpeg" alt="Gallery image 2" class="gallery__img">
+            <a href="https://www.google.com/maps/uv?pb=!1s0x87c90598b53870d7%3A0x218cd57e87f70e4b!3m1!7e131!5sNaz-T%27s%20Float%20Shop!15sCgIgAQ&hl=en&imagekey=!1e3!2s-REfYruaeqnY%2FYJspvXwsetI%2FAAAAAAAAAFM%2FMuoBpp-CFsMmnY-XAdIdCppmSqZqcVBdQCNwBGAYYCw" target="_blank"><img src="img2.jpeg" alt="Gallery image 2" class="gallery__img"></a>
         </figure>
         <figure class="img3">
-            <img src="img1.jpeg" alt="Gallery image 3" class="gallery__img">
+            <a href="https://www.google.com/maps/uv?pb=!1s0x87c90598b53870d7%3A0x218cd57e87f70e4b!3m1!7e131!5sNaz-T%27s%20Float%20Shop!15sCgIgAQ&hl=en&imagekey=!1e3!2s-REfYruaeqnY%2FYJspvXwsetI%2FAAAAAAAAAFM%2FMuoBpp-CFsMmnY-XAdIdCppmSqZqcVBdQCNwBGAYYCw" target="_blank"><img src="img1.jpeg" alt="Gallery image 3" class="gallery__img"></a>
         </figure>
         <figure class="img4">
-            <img src="img4.jpeg" alt="Gallery image 4" class="gallery__img">
+            <a href="https://www.google.com/maps/uv?pb=!1s0x87c90598b53870d7%3A0x218cd57e87f70e4b!3m1!7e131!5sNaz-T%27s%20Float%20Shop!15sCgIgAQ&hl=en&imagekey=!1e3!2s-REfYruaeqnY%2FYJspvXwsetI%2FAAAAAAAAAFM%2FMuoBpp-CFsMmnY-XAdIdCppmSqZqcVBdQCNwBGAYYCw" target="_blank"><img src="img4.jpeg" alt="Gallery image 4" class="gallery__img"></a>
         </figure>
         <figure class="img5">
-            <img src="img5.jpeg" alt="Gallery image 5" class="gallery__img">
+            <a href="https://www.google.com/maps/uv?pb=!1s0x87c90598b53870d7%3A0x218cd57e87f70e4b!3m1!7e131!5sNaz-T%27s%20Float%20Shop!15sCgIgAQ&hl=en&imagekey=!1e3!2s-REfYruaeqnY%2FYJspvXwsetI%2FAAAAAAAAAFM%2FMuoBpp-CFsMmnY-XAdIdCppmSqZqcVBdQCNwBGAYYCw" target="_blank"><img src="img5.jpeg" alt="Gallery image 5" class="gallery__img"></a>
         </figure>
         <figure class="img6">
-            <img src="img9.jpeg" alt="Gallery image 6" class="gallery__img">
+            <a href="https://www.google.com/maps/uv?pb=!1s0x87c90598b53870d7%3A0x218cd57e87f70e4b!3m1!7e131!5sNaz-T%27s%20Float%20Shop!15sCgIgAQ&hl=en&imagekey=!1e3!2s-REfYruaeqnY%2FYJspvXwsetI%2FAAAAAAAAAFM%2FMuoBpp-CFsMmnY-XAdIdCppmSqZqcVBdQCNwBGAYYCw" target="_blank"><img src="img9.jpeg" alt="Gallery image 6" class="gallery__img"></a>
         </figure>
     </div>
 </div>
@@ -91,8 +103,8 @@ Sun:	12:00 – 10:00 PM<p>
 
 <footer>
   <div id = "social_icons">
-    <a href="https://www.facebook.com/NazTFloat/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" width="50px" height="50px"></a>
-    <a href="https://www.instagram.com/naz_t_rob/"><img src="insta.png" width="50px" height="50px"></a>
+    <a href="https://www.facebook.com/NazTFloat/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" width="50px" height="50px"></a>
+    <a href="https://www.instagram.com/naz_t_rob/" target="_blank"><img src="insta.png" width="50px" height="50px"></a>
 </footer>
 
   </body>
