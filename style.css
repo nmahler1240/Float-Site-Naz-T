@@ -1,0 +1,195 @@
+
+* {
+ font-family: 'Bangers', cursive;
+ background-color: ;
+}
+.menu {
+
+}
+
+.right {
+  float:right;
+  margin-right: 10px;
+}
+
+.main {
+  text-align: center;
+  font-size: 60px;
+
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 40%;
+}
+
+.sub {
+  text-align: center;
+  border:;
+  background: lightgrey;
+  width: 25%;
+  margin:auto;
+  padding: 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+
+
+.des {
+  text-align: center;
+  border:;
+  background: lightgrey;
+  width: 50%;
+  margin:auto;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+/*nav*/
+#mySidenav a {
+  position: absolute;
+  left: 0px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 5px;
+}
+
+#updates {
+  top: 20px;
+  background-color: #6F0800;
+}
+
+#about {
+  top: 80px;
+  background-color: #060608;
+}
+
+#gallery {
+  top: 140px;
+  background-color: #FFD714;
+}
+
+#contact {
+  top: 200px;
+  background-color: #F1EE00;
+}
+#quote {
+  top: 200px;
+  background-color: #E51815;
+}
+
+.gal {
+  text-align: center;
+
+}
+
+/*GALLERY*/
+.gallery1 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 5px;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.img2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.img3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.img4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+.img5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start:6;
+  grid-row-end:9;
+}
+.img6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+#social_icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.hours, .time, .contact {
+  text-align: center;
+}
+.number {
+  text-align: center;
+}
+
+.topIcon {
+  float:right;
+  display: block;
+}
+header {
+  background-color: ;
+}
+
+
+/*Dark mode*/
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.btn {
+  border-radius: 25%;
+  padding: 2px;
+  float: right;
+  margin-right: 5px;
+}
+
+.hero__video {
+    width: 100%;
+    display: block;
+    }
